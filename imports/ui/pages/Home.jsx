@@ -5,7 +5,7 @@ import Products from '../components/Home/Products.jsx';
 const Home = (props) => {
 
 console.log('products', props.products);
-console.warn('loading', props.loading);
+
   if(props.loading){
     return(<Content isLoading />)
   }
@@ -20,6 +20,7 @@ console.warn('loading', props.loading);
 
 Home.propTypes = {
   products: PropTypes.array,
+  loading: PropTypes.bool
 };
 
 export default Home;
