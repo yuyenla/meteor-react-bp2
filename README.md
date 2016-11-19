@@ -1,5 +1,3 @@
-# meteor-react-bp2
-
 # Meteor-React Boilerplate
 This boiler plate allows you to publish items from the database.
 
